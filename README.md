@@ -41,12 +41,12 @@ func main() {
 	*/
 	raw_data_hex := "0a028f8b22088b73d8d9386a59d340c0bcddb0e22d5a69080112650a2d747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e5472616e73666572436f6e747261637412340a154106c6a577814bc4f1cf73057ada02a3a8e05f51481215417eb81b56a44ed4c13f3afbdc4c068bbf1b2b5d39189adbd6ee0170deeed9b0e22d"
 
-	raw, err := TrxSignByPrivateStr(raw_data_hex ,privKey)
-	}
+	raw, err := sign.TrxSignByPrivateStr(raw_data_hex, privKey)
 
 	if err != nil {
-		fatal(err)
+		panic(err)
 	}
 	println(raw)
 }
+
 ```
