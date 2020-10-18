@@ -3,7 +3,6 @@ package wallet
 import (
 	"crypto/ecdsa"
 	"encoding/hex"
-	"fmt"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/ijoywan/trx/wallet-tools/crypto"
 	"github.com/ijoywan/trx/wallet-tools/encoding/base58"
