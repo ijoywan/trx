@@ -2,6 +2,7 @@ package sign
 
 import (
 	"encoding/hex"
+	"fmt"
 	"github.com/btcsuite/goleveldb/leveldb/errors"
 	"github.com/ijoywan/trx/wallet-tools/crypto"
 	"github.com/ijoywan/trx/wallet-tools/crypto/secp256k1"
